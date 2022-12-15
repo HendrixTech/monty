@@ -19,25 +19,25 @@ Files containing Monty byte codes usually have the *.m* extension. Most of the i
 
 ``
 
-julien@ubuntu:~/monty$ cat -e bytecodes/000.m
+ julien@ubuntu:~/monty$ cat -e bytecodes/000.m
 
-push 0$
+ push 0$
 
-push 1$
+ push 1$
 
-push 2$
+ push 2$
 
-  push 3$
+   push 3$
 
-                   pall    $
+                    pall    $
 
-push 4$
+ push 4$
 
-    push 5    $
+     push 5    $
 
-      push    6        $
+       push    6        $
 
-pall$
+ pall$
 
 julien@ubuntu:~/monty$
 
@@ -45,8 +45,7 @@ julien@ubuntu:~/monty$
 
 Monty byte code files can contain blank lines (empty or made of spaces only, and any additional text after the opcode or its required argument is not taken into account:
 
-``
-	julien@ubuntu:~/monty$ cat -e bytecodes/001.m
+``	julien@ubuntu:~/monty$ cat -e bytecodes/001.m
 
 	push 0 Push 0 onto the stack$
 
